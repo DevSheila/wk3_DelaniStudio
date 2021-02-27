@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(243, 237, 237);
+    
+}
+
+#jumbotron-header{
+    padding-top: 6rem;
+    padding-bottom: 10.5rem;
+    border-radius: 0;
+    text-align: center;
+    color: #fff;
+    background-image: url("../images/backgrounds/h_img.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+
+}
