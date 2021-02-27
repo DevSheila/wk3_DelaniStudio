@@ -62,3 +62,10 @@ header.masthead .masthead-mouse {
 .portfolio-heading {
     color: rgba(99, 77, 77, 0.959);
 }
+section#contact {
+    background-color: #212529;
+    background-image: url("../images/backgrounds/c_image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
