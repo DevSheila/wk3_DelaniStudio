@@ -44,3 +44,17 @@ header.masthead .masthead-mouse {
 .what-section {
     padding: 8rem 0 4rem 0;
 }
+
+.what-heading {
+    color: rgba(99, 77, 77, 0.959);
+}
+
+.what-subheading {
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    color: rgba(99, 77, 77, 0.959);
+    font: 18px;
+}
+
+.what-para{
+    display: none;
+}
