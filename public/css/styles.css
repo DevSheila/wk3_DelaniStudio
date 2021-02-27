@@ -83,3 +83,20 @@ section #contactForm .form-control {
     color: white;
     font-family: cursive;
 }
+
+input[type="text"]::placeholder {
+    /* Firefox, Chrome, Opera */
+    color: white;
+    font-family: cursive;
+}
+
+input[type="email"]::placeholder {
+    /* Firefox, Chrome, Opera */
+    color: white;
+    font-family: cursive;
+}
+
+textarea::-webkit-input-placeholder {
+    color: white;
+    font-family: cursive;
+}
