@@ -102,3 +102,8 @@ textarea::-webkit-input-placeholder {
     color: white;
     font-family: cursive;
 }
+
+.submit-btn{
+    display: flex;
+    justify-content: center;
+ }
