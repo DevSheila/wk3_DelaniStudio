@@ -67,4 +67,19 @@ header.masthead .masthead-mouse {
 }
 
 
+ 
+section#contact {
+    background-color: #212529;
+    background-image: url("../images/backgrounds/c_image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
 
+section #contactForm .form-control {
+    border: 0;
+    background: none;
+    border: 2px solid #FFFFFF;
+    color: white;
+    font-family: cursive;
+}
