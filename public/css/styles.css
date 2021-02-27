@@ -99,3 +99,10 @@ textarea::-webkit-input-placeholder {
     display: flex;
     justify-content: center;
  }
+
+ 
+ .social a{
+    text-decoration: none;
+    font-size:2em;
+    padding:1rem;
+}
