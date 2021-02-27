@@ -33,3 +33,13 @@ header.masthead .masthead-mouse {
     margin-top: 5rem;
 }
 
+.page-section {
+    padding: 2rem 0;
+    margin-top: -10px;
+}
+
+.services-section {
+    padding: 2rem 0;
+    background-image: url("../images/backgrounds/s_image.jpg");
+}
+
