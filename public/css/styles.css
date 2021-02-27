@@ -32,3 +32,7 @@ header.masthead .masthead-heading {
 header.masthead .masthead-mouse {
     margin-top: 5rem;
 }
+.page-section {
+    padding: 2rem 0;
+    margin-top: -10px;
+}
