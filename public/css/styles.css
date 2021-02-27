@@ -2,3 +2,34 @@ body{
     background-color: rgb(243, 237, 237);
     
 }
+
+#jumbotron-header{
+    padding-top: 6rem;
+    padding-bottom: 10.5rem;
+    border-radius: 0;
+    text-align: center;
+    color: #fff;
+    background-image: url("../images/backgrounds/h_img.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+header.masthead .masthead-logo {
+    margin-top: 2rem;
+}
+
+header.masthead .masthead-heading {
+    margin-top: 4rem;
+    font-size: 3.25rem;
+    line-height: 3.25rem;
+    margin-bottom: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header.masthead .masthead-mouse {
+    margin-top: 5rem;
+}
+
