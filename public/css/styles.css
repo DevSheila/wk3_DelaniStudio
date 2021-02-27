@@ -43,3 +43,17 @@ header.masthead .masthead-mouse {
     background-image: url("../images/backgrounds/s_image.jpg");
 }
 
+
+.what-section {
+    padding: 8rem 0 4rem 0;
+}
+
+.what-heading {
+    color: rgba(99, 77, 77, 0.959);
+}
+
+.what-subheading {
+    color: rgba(99, 77, 77, 0.959);
+    font: 18px;
+}
+
