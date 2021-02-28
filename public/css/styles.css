@@ -161,3 +161,19 @@ textarea::-webkit-input-placeholder {
     font-size:2em;
     padding:1rem;
 }
+
+.feedback {
+    display: none;
+}
+.showFeedback{
+    display: block;
+}
+
+.alert-success{
+    background-color: rgb(118, 175, 52);
+    color:white;
+}
+.alert-danger{
+    background-color: rgb(212, 40, 40);
+    color:white;
+}

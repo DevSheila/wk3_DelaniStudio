@@ -15,7 +15,6 @@ $(document).ready(function(){
       })
 
       $('.image__overlay').hover(function(e){
-          console.log(e.currentTarget)
           let currentImage = e.currentTarget
 
         $(currentImage).mouseover(function(){
@@ -30,3 +29,46 @@ $(document).ready(function(){
       })
        
    })
+
+//#contactForm
+// #name
+// #email
+// #message
+
+const form = document.getElementById('contactForm');
+const formName = document.getElementById('name');
+const formEmail= document.getElementById('email');
+const formMessage = document.getElementById('message');
+
+
+form.addEventListener("submit", e=>{
+    e.preventDefault();
+    console.log(formName.value + formEmail.value + formMessage.value);
+    validateForm()
+})
+
+
+function validateForm(){
+    //No Empty Fields
+    if(formName.value === ""){ 
+        alert("Please Enter Your Name");
+    }else if(formEmail.value === ""){
+        alert("Please Enter Your Email");
+    }else if(formMessage.value === ""){
+    alert("Please Enter Your Message");  
+    }else{
+        success();  
+    }
+}
+
+function success(){
+    alert("Thank you for contacting us " +(formName.value).toUpperCase() + " Your Message has been received" );
+    clearFields();
+}
+
+
+function clearFields(){
+    formName.value ='';
+    formEmail.value ='';
+    formMessage.value='';
+};
