@@ -46,21 +46,61 @@ header.masthead .masthead-mouse {
 }
 
 .what-heading {
-    color: rgba(99, 77, 77, 0.959);
+    /* color: rgba(99, 77, 77, 0.959); */
 }
 
 .what-subheading {
     /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
-    color: rgba(99, 77, 77, 0.959);
+    /* color: rgba(99, 77, 77, 0.959); */
     font: 18px;
 }
 
 .what-para{
+    color:black;
     display: none;
 }
 
-.portfolio-heading {
-    color: rgba(99, 77, 77, 0.959);
+.portfolio-item{
+    position:relative;
+
+}
+.image__img{
+    display:block;
+    width:100%;
+}
+
+.image__overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    /* width:100%;
+    height:100%; */
+    background: rgba(0,0,0,0.6);
+    color:white;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition:0.25s;
+    text-align: left;
+
+}
+
+
+.image-info{
+    border: 4px solid white;
+    margin:10px;
+    padding:2em;
+}
+
+.image__title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    /* top:0; */
 }
 section#contact {
     background-color: #212529;

@@ -13,5 +13,20 @@ $(document).ready(function(){
            })
           })
       })
+
+      $('.image__overlay').hover(function(e){
+          console.log(e.currentTarget)
+          let currentImage = e.currentTarget
+
+        $(currentImage).mouseover(function(){
+            $(currentImage).css('opacity','1')
+
+        })
+
+        $(currentImage).mouseout(function(){
+            $(currentImage).css('opacity','0')
+
+        })
+      })
        
    })
