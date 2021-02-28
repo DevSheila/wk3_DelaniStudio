@@ -14,6 +14,8 @@ $(document).ready(function(){
           })
       })
 
+      //Hover effect on portfolio images
+
       $('.image__overlay').hover(function(e){
           let currentImage = e.currentTarget
 
