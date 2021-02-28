@@ -84,7 +84,7 @@ header.masthead .masthead-mouse {
     width:100%;
 }
 
-.image__overlay{
+.portfolio-overlay{
     position:absolute;
     top:0;
     left:0;
@@ -106,13 +106,13 @@ header.masthead .masthead-mouse {
 }
 
 
-.image-info{
+.portfolio-info{
     border: 4px solid white;
     margin:10px;
     padding:2em;
 }
 
-.image__title{
+.portfolio-title{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bolder;
     /* top:0; */
