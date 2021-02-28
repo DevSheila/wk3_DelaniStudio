@@ -60,13 +60,9 @@ header.masthead .masthead-mouse {
     padding: 8rem 0 4rem 0;
 }
 
-.what-heading {
-    /* color: rgba(99, 77, 77, 0.959); */
-}
 
 .what-subheading {
-    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
-    /* color: rgba(99, 77, 77, 0.959); */
+  
     font: 18px;
 }
 
@@ -115,7 +111,7 @@ header.masthead .masthead-mouse {
 .image__title{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bolder;
-    /* top:0; */
+  
 }
 section#contact {
     background-color: #212529;
@@ -160,20 +156,4 @@ textarea::-webkit-input-placeholder {
     text-decoration: none;
     font-size:2em;
     padding:1rem;
-}
-
-.feedback {
-    display: none;
-}
-.showFeedback{
-    display: block;
-}
-
-.alert-success{
-    background-color: rgb(118, 175, 52);
-    color:white;
-}
-.alert-danger{
-    background-color: rgb(212, 40, 40);
-    color:white;
 }
