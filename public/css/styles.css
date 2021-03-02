@@ -130,24 +130,28 @@ section #contactForm .form-control {
     background: none;
     border: 2px solid #FFFFFF;
     color: white;
-    font-family: cursive;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
 input[type="text"]::placeholder {
     /* Firefox, Chrome, Opera */
     color: white;
-    font-family: cursive;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
 input[type="email"]::placeholder {
     /* Firefox, Chrome, Opera */
     color: white;
-    font-family: cursive;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
 textarea::-webkit-input-placeholder {
     color: white;
-    font-family: cursive;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 
 }
 .submit-btn{
