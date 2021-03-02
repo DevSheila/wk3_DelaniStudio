@@ -32,15 +32,15 @@ $(document).ready(function(){
        
    })
 
-//#contactForm
-// #name
-// #email
-// #message
+//#mc-embedded-subscribe-form
+// #mce-MMERGE6
+// #mce-EMAIL
+// #mce-MMERGE2
 
-const form = document.getElementById('contactForm');
-const formName = document.getElementById('name');
-const formEmail= document.getElementById('email');
-const formMessage = document.getElementById('message');
+const form = document.getElementById('mc-embedded-subscribe-form');
+const formName = document.getElementById('mce-MMERGE6');
+const formEmail= document.getElementById('mce-EMAIL');
+const formMessage = document.getElementById('mce-MMERGE2');
 
 
 form.addEventListener("submit", e=>{

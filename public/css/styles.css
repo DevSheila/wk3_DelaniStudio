@@ -125,7 +125,7 @@ section#contact {
     color: white;
 }
 
-section #contactForm .form-control {
+section .contactForm .form-control {
     border: 0;
     background: none;
     border: 2px solid #FFFFFF;
