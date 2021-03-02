@@ -34,13 +34,13 @@ $(document).ready(function(){
 
 //#contactForm
 // #name
-// #email
+// #mce-EMAIL
 // #message
 
 const form = document.getElementById('contactForm');
-const formName = document.getElementById('name');
-const formEmail= document.getElementById('email');
-const formMessage = document.getElementById('message');
+const formName = document.getElementById('mce-MMERGE6');
+const formEmail= document.getElementById('mce-EMAIL');
+const formMessage = document.getElementById('mce-MMERGE2');
 
 
 form.addEventListener("submit", e=>{
