@@ -16,7 +16,7 @@ $(document).ready(function(){
 
       //Hover effect on portfolio images
 
-      $('.image__overlay').hover(function(e){
+      $('.portfolio-overlay').hover(function(e){
           let currentImage = e.currentTarget
 
         $(currentImage).mouseover(function(){
@@ -32,12 +32,12 @@ $(document).ready(function(){
        
    })
 
-//#contactForm
-// #name
+//#mc-embedded-subscribe-form
+// #mce-MMERGE6
 // #mce-EMAIL
-// #message
+// #mce-MMERGE2
 
-const form = document.getElementById('contactForm');
+const form = document.getElementById('mc-embedded-subscribe-form');
 const formName = document.getElementById('mce-MMERGE6');
 const formEmail= document.getElementById('mce-EMAIL');
 const formMessage = document.getElementById('mce-MMERGE2');
